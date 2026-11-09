@@ -16,7 +16,7 @@ try:
     if torch.cuda.is_available():
         print(f"CUDA device: {torch.cuda.get_device_name(0)}")
     else:
-        print("Using CPU for inference.")
+        print("Using CPU for inference. ")
 except Exception:
     pass
 ffmpeg=shutil.which('ffmpeg')
