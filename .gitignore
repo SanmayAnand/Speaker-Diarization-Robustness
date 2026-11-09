@@ -1,0 +1,50 @@
+__pycache__/
+.venv/
+.env
+.env.*
+.cache/
+huggingface_cache/
+transformers_cache/
+
+# Model checkpoints and weights
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.h5
+*.hdf5
+pytorch_model.bin
+
+# Dataset files
+data/raw/*
+data/interim/*
+data/processed/*
+
+# Keep placeholders and documentation
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+
+# Audio recordings
+*.wav
+*.mp3
+*.flac
+*.m4a
+*.ogg
+*.aac
+
+# Large data exports
+*.parquet
+*.arrow
+
+outputs/*
+!outputs/.gitkeep
+
+logs/*
+!logs/.gitkeep
+wandb/
+mlruns/
+lightning_logs/
+.ipynb_checkpoints/
+.vscode/
